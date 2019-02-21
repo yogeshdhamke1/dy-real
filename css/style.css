@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default {
+  background-color: white;
+  border-color: white;
+	
+}
+.navbar-default .navbar-nav > li > a {
+	color: blue;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand {
+	color: darkblue;
+	font-size: 20px;
+}
+.h5txt {
+	font-size: 20px;
+	color: darkgray;
+}
+.h5t {
+	padding-top: 50px;
+}
+.h3txt {
+	color: blue;
+}
+.caption h3  + p  {
+	color: darkslateblue;
+	font-size: 18px;
+}
+.caption h3  + p + p {
+	color: deepskyblue;
+	font-size: 18px;
+}
+
+
+/* project */
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color:  blue;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+	text-align: left;
+   
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    color: blue;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: blue;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: blue;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+/* scoll to top */
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
